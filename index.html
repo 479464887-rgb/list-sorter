@@ -52,6 +52,7 @@ banana</textarea>
 <div class="stats" id="stats"></div>
 </div></div>
 <script>
+'use strict';
 function sort(mode){
   let lines=document.getElementById('input').value.split('\n').filter(l=>l.trim());
   if(mode==='az') lines.sort();
